@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram- Log in</title>
+    <link rel="stylesheet" href="input.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="overall flex flex-col justify-center">
+        <div class="main flex  space-x-4  justify-center h-[90vh] w-auto">
+
+            <div class="left flex w-[20%]  mt-12 rounded-[2rem] ">
+                <div class="bg-black h-[80vh]">
+                    <img src="images/screenshot1.png " alt="1" id="front"
+                        class=" bg-black rounded-[2rem] transition-opacity absolute h-[70%] z-10  top-[4rem] border-gray-600 border-4 p-3">
+                    <img src="images/insta.png" alt="2"
+                        class=" rounded-[2rem] absolute h-[70%] left-[23rem] border-gray-600  border-[3px] p-2 bg-black">
+                </div>
+            </div>
+
+            <div class="right h-[53vh] w-[22%] border-[1px] mt-[3rem] flex flex-col "><img src="images/logo insta.png" alt=""
+                    class="h-[16%] mx-20 mt-[3rem] inline w-auto">
+                <div class="rightsub px- ">
+                    <div class="input flex flex-col mt-[3.25rem] text-gray-700">
+                        <input type="text" placeholder="Phone number, username,or email"
+                            class="h-9 w-[80%] mx-auto pl-2  border-neutral-300 focus:border-gray-400 placeholder:text-gray-600 text-[13px]  border-[0.5px] bg-gray-100 rounded-sm">
+                        <input type="text" placeholder="Password"
+                            class="h-9 w-[80%] text-[13px] placeholder:justify-around pl-2 placeholder:text-gray-600 border-neutral-300 placeholder: mx-auto mt-[0.5rem] text-left border-[1px]  text-black bg-gray-100 rounded-sm">
+                            <p class="par text-red-600"></p>
+                        <button class="bg-blue-400 w-[80%] btn h-8 rounded-lg font-semibold text-white mx-auto mt-3" onclick="change()">Log
+                            in</button>
+                        <div class="flex space-x-2 mt-4 h-[10%] w-[80%] mx-auto  items-center justify-between">
+                            <div class="h-[0.1px] bg-gray-200 w-[40%]"></div>
+                            <h1 class="font-semibold text-gray-500 text-[13px] ">OR</h1>
+                            <div class="h-[0.1px] bg-gray-200 w-[40%]"></div>
+                        </div>
+                        <div
+                            class="flex mt-7 cursor-pointer text-[#385185] text-[14px] font-semibold justify-center items-center">
+                            <img src="icons8-facebook-48.png" alt="" class="h-5 w-[auto]  mr-2">Log in with Facebook
+                        </div>
+                        <h1 class="inline mx-auto text-[13px] cursor-pointer text-gray-600 mt-3">Forgot password?</h1>
+                    </div>
+                    <div
+                        class="rightEnd h-[15%]   cursor-pointer border-[1px] text-[14px] w-[100%] mt-7 text-center text-blue-400 font-semibold place-content-center">
+                        Create new account </div>
+                    <div class="bottom flex flex-col text-center mt-3 cursor-pointer">
+                        <h1>Get the app.</h1>
+                        <div class="flex h-[20%] place-content-center space-x-2 w-full mt-4">
+                            <img src="images/c5Rp7Ym-Klz.png" alt="" class="h-[5%] w-32 cursor-pointer rounded-lg">
+                            <img src="images/microsoft.png" alt="" class="h-[2%] w-[6.75rem] cursor-pointer rounded-lg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer h-[20%] flex flex-col place-content-center items-center mb-40 w-full text-[12px] text-gray-500 cursor-pointer">
+            <div>
+           <p class="wordspace">
+             Meta    About   Blog
+                Jobs
+                Help
+                API
+                Privacy
+                Terms
+                Locations
+                <span id="il">Instagram Lite</span>
+                
+                Threads
+                <span id="cs">Contact Uploading & Non-Users</span>
+                <span id="mv"> Meta Verified</span>
+               
+            </p>
+        </div>
+        <div class="end mt-4">
+       <select name="English" id="lang">
+        <option value="en" selected>English</option>
+        <option value="kn">Kannada</option>
+       </select>
+       © 2024 Instagram from Meta</div>
+
+</div>
+
+        
+
+
+    </div>
+
+
+</body>
+
+</html>

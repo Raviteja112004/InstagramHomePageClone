@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.wordspace{
+    word-spacing: 1rem;
+}
+#il,#cs ,#mv{
+    word-spacing: 0.1rem;
+}
+.trans{
+    transition:opacity 1s ease;
+}
